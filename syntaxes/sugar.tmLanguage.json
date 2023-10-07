@@ -13,6 +13,9 @@
 		},
 		{
 			"include": "#sections"
+		},
+		{
+			"include": "#operators"
 		}
 	],
 	"repository": {
@@ -32,7 +35,7 @@
 			"patterns": [
 				{
 					"name": "constant.numeric.sugar",
-					"match": "[a-z]?x[0-9]+|[a-z]?[0-9]+"
+					"match": "[a-z]?x[0-9a-f]+|[a-z]?[0-9]+"
 				}
 			]
 		},
@@ -45,11 +48,21 @@
 			"patterns": [
 				{
 					"name": "entity.name.class.sugar",
-					"match": "[^0-9 ;,][^ :;,]*:"
+					"match": "[^0-9 =;,~][^ :;,]*:"
 				},
 				{
 					"name": "entity.name.function",
-					"match": "[^0-9 ;,][^ :;,]*"
+					"match": "[^0-9 =;,~][^ :;,]*"
+				}
+			]
+		},
+		"operators": 
+		{
+			"patterns":
+			[
+				{
+					"name": "keyword.operator.sugar",
+					"match": "~|="
 				}
 			]
 		}
