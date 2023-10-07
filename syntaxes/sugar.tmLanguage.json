@@ -20,7 +20,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.sugar",
-					"match": "\\b(put|mov|moo|add|addn|sub|subn|cmp|cmpn|equ|equn|inv|jmp|jfz|jnz|hlt|call|ret|push|pull|mtp|mfp|prt|prtp|inp|pin|raw|guad)\\b"
+					"match": "\\b(start at|put|mov|moo|add|addn|sub|subn|cmp|cmpn|equ|equn|inv|jmp|jfz|jnz|hlt|call|ret|push|pull|mtp|mfp|prt|prtp|inp|pin|raw|guad)\\b"
 				},
 				{
 					"name": "entity.name.tag.sugar",
