@@ -1,0 +1,25 @@
+{
+    "name": "sugar",
+    "displayName": "SUGAR highlighting",
+    "description": "adds highlighting for the sugar assembly programming language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.83.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sugar",
+            "aliases": ["SUGAR", "sugar"],
+            "extensions": [".sugar"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sugar",
+            "scopeName": "source.sugar",
+            "path": "./syntaxes/sugar.tmLanguage.json"
+        }]
+    }
+}
