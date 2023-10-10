@@ -2,7 +2,7 @@
     "name": "sugar",
     "displayName": "SUGAR highlighting",
     "description": "adds highlighting for the sugar assembly programming language",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.83.0"
     },

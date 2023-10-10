@@ -16,9 +16,20 @@
 		},
 		{
 			"include": "#operators"
+		},
+		{
+			"include": "#pointers"
 		}
 	],
 	"repository": {
+		"pointers":{
+			"patterns": [
+				{
+					"name": "entity.name.tag.sugar",
+					"match": "[|]"
+				}
+			]
+		},
 		"keywords": {
 			"patterns": [
 				{
@@ -48,11 +59,11 @@
 			"patterns": [
 				{
 					"name": "entity.name.class.sugar",
-					"match": "[^0-9 =;,~][^ :;,]*:"
+					"match": "[^0-9 =;,~\\[][^ :;,\\]]*:"
 				},
 				{
 					"name": "entity.name.function",
-					"match": "[^0-9 =;,~][^ :;,]*"
+					"match": "[^0-9 =;,~\\[][^ :;,\\]]*"
 				}
 			]
 		},
